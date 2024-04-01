@@ -1,3 +1,12 @@
+@media print {
+  .underline {
+    display: block; /* Ensure the line is visible when printing */
+  }
+}
+
+.form{
+  text-align: right;
+}
 p{
   margin: 0;
   padding: 0;
@@ -58,17 +67,33 @@ p{
 .part-A{
   width: 100%;
   height: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .member-details{
+  height: auto;
   display: flex;
+  flex-direction: row;
   margin-top: 10px;
 }
 .line {
+  position: relative;
+  height: auto;
   flex: 1;
-  height: 1px; 
   margin-left: 10px; 
-  margin-top: 14px;
+  border-bottom: 100%;
+}
+.underline{
+  position: relative;
+  z-index: 1;
+}
+.underline::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  height: 1px;
+  background-color: black; 
 }
 .line-1{
   margin-top: 0;
@@ -80,6 +105,9 @@ p{
 .table{
   width: 100%;
   margin-top: 10px;
+}
+.table p{
+  font-weight: 700;
 }
 .officer-details-table{
   width: 100%;
