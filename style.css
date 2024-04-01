@@ -78,12 +78,12 @@ p{
   background-color: black;
 }
 .table{
+  width: 100%;
   margin-top: 10px;
 }
 .officer-details-table{
   width: 100%;
-  border-collapse: collapse;
-  
+  border-collapse: collapse; 
 }
 .account-details{
   width: 100%;
@@ -94,9 +94,9 @@ p{
 .correct{
   ms-transform: scale(1.5);
   webkit-transform: scale(1.5);
-  transform: scale(1.5);
-  
+  transform: scale(1.5); 
 }
+
 .green-little-box{
   width: 10px;
   height: 20px;
