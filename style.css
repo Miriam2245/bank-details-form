@@ -122,9 +122,15 @@ p{
 .correct{
   ms-transform: scale(1.5);
   webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-}
+  transform: scale(1.5);
 
+}
+.label{
+  margin-right: 30px;
+}
+.lable-1{
+  margin-right: 40px;
+}
 .green-little-box{
   width: 10px;
   height: 20px;
