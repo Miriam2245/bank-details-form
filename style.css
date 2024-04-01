@@ -1,0 +1,82 @@
+p{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  width: 100%;
+  height: 140px;
+  display: flex;
+}
+.logo-box{
+  width: 25%;
+  height: auto;
+}
+.heading-box{
+  width: 50%;
+}
+.heading-box p{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.nssf-logo{
+  width: 110px;
+  height: 120px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.image-box{
+  width: 110px;
+  height: 120px;
+  border: solid;
+  border-width: 1px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.image-box p{
+  text-align: center;
+  margin-top: 10px;
+}
+.details-form{
+  width: 100%;
+  height: 140px;
+  margin-top: 10px;
+}
+.heading-2{
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.heading-details{
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+.part-A{
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+.member-details{
+  display: flex;
+  margin-top: 10px;
+}
+.line {
+  flex: 1;
+  height: 1px; 
+  margin-left: 10px; 
+  margin-top: 14px;
+}
+.line-1{
+  margin-top: 0;
+  border: none;
+  border: solid;
+  border-width: 0.5px;
+  background-color: black;
+}
+.table{
+  margin-top: 10px;
+}
