@@ -80,3 +80,25 @@ p{
 .table{
   margin-top: 10px;
 }
+.officer-details-table{
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+.account-details{
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+.correct{
+  ms-transform: scale(1.5);
+  webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  
+}
+.green-little-box{
+  width: 10px;
+  height: 20px;
+  background-color: green;
+}
